@@ -224,7 +224,7 @@ function startGame3() {
 
         const move = setInterval(() => {
 
-            y -= 10; // slower movement
+            y -= 6; // slower movement
             item.style.top = y + "px";
 
             if (y < -60) {
