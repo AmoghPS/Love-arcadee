@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Love Arcade ❤️</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Home -->
+    <div id="home" class="screen active">
+        <h1>💖 Love Arcade 💖</h1>
+        
+        <button onclick="startGame1()">Play</button>
+      
+    </div>
+
+    <!-- Game 1 -->
+    <div id="game1" class="screen">
+        <h2>Catch The Hearts ❤️</h2>
+        <div id="score1">Score: 0 / 20</div>
+
+        <div id="gameArea">
+            <div id="basket">🧺</div>
+        </div>
+    </div>
+
+    <!-- Game 2 -->
+    <div id="game2" class="screen">
+        <h2>Tap Hearts 💖</h2>
+        <div id="score2">Score: 0 / 25</div>
+
+        <div id="tapArea"></div>
+    </div>
+
+    <!-- Game 3 -->
+    <div id="game3" class="screen">
+        <h2>Pop The Hearts and Stars</h2>
+        <div id="score3">Score: 0 / 30</div>
+
+        <div id="balloonArea"></div>
+    </div>
+    
+    <div id="transition" class="screen">
+    <h1 id="transitionTitle">Level Complete! 🎉</h1>
+
+    <h2 id="transitionMessage">
+        Way to go my cutie dumpling🥰
+    </h2>
+ <!-- Transition Screen -->
+    <p id="countdown">Next game in 7...</p>
+</div>
+
+    <!-- Win -->
+    <div id="confetti"></div>
+
+
+
+    <div id="win" class="screen">
+        <h1>🎉</h1>
+        <h1>You completed Love Arcade!!! ❤️</h1>
+        <h3>Im so proud of you Bekku Mari🥰</h3>
+        <h2>I Love You So Muchhhh😭</h2>
+        <h2>HAPPY 20 MOTNHS MY BABBYYYY!!!!!</h2>
+        <button onclick="location.reload()">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
